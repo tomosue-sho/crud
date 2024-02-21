@@ -1,6 +1,6 @@
 from django.contrib import admin
-from .models.product import Product
-from .models.category import Category
+from crud.models.product import Product
+from crud.models.category import Category
 from django.utils.safestring import mark_safe
 
 class ProductAdmin(admin.ModelAdmin):
